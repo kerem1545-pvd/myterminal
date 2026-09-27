@@ -1,0 +1,10 @@
+#!/bin/bash
+echo -e "\e[32m"
+clear
+echo "Çıkmak için CTRL + C yapabilirsin"
+sleep 1
+
+while true; do
+    echo -n "$RANDOM $RANDOM $RANDOM $RANDOM $RANDOM $RANDOM $RANDOM $RANDOM "
+    sleep 0.02
+done
